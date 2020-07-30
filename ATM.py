@@ -175,10 +175,8 @@ def atm(user_name,Net_balance,Pin,History,acc_no,address):
 
     os.system(clear)
     print ("::: Thanks For Using ATM! :::\n::: We Hope You Are Satisfied With Our Service. :::\n::: Have A Nice Day Ahead. :::")
-    print ("About:")
-    with open('About.txt','r') as infile:
-        show = infile.read()
-        print (show)
+    print ("By : Bindushree Dhruva Harshith")
+
 
     with open(filename,'a+') as ap:
         #rot13() function is called for encoding
